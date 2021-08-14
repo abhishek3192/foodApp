@@ -9,8 +9,8 @@
   background-image: url(./assests/Rectangle\ 1059@1X.png);
   background-position: center;
   background-size: cover;
-  padding-left: 5%;
-  padding-right: 5%;
+  /* padding-left: 5%; */
+  /* padding-right: 5%; */
   box-sizing: border-box;
   position: relative;
 }
@@ -18,8 +18,8 @@
 .stamp {
   transform: rotate(-40deg);
   position: relative;
-  top: 2%;
-  left: 21%;
+  top: 14%;
+  left: 29%;
 }
 
 /* .container img{
@@ -34,63 +34,54 @@
   height: 100%;
   position: absolute;
   bottom: 0;
-  right: 225px;
+  right: 127px;
   top: 0%;
 }
 
 .Home h5 {
-    position: relative;
-    font-size: 75px;
-    color: white;
-    top: 14%;
-    left: 25%;
-    display: inline;
+  position: relative;
+  font-size: 75px;
+  color: white;
+  top: 14%;
+  left: 25%;
+  display: inline;
 }
 
 .Home h1 {
   position: relative;
   font-size: 65px;
   color: white;
-  top: 15%;
-  left: 25%;
+  top: 28%;
+  left: 33%;
   display: inline;
-
 }
 
-.Home h4{
-    position: relative;
-    left: 5%;
-    font-size: 20px;
-}
-
-.Home span{
-    position: relative;
-    left: 9%;
-    letter-spacing: 11px;
-}
-
-.foodie__header {
+.Home h4 {
   position: relative;
-  top: 23%;
-  left: 23%;
-  opacity: 1;
-  object-fit: cover;
+  left: 5%;
+  font-size: 20px;
+}
+
+.Home span {
+  position: relative;
+  left: 9%;
+  letter-spacing: 11px;
 }
 
 .foodie__area {
   position: relative;
-  top: 20%;
-  left: 9%;
+  top: 32%;
+  left: 19%;
   opacity: 1;
 }
 
 .navbar {
   width: 100%;
-  height: 15vh;
+  height: 10vh;
   margin: auto;
   display: flex;
   align-items: center;
-  position: relative;
+  position: fixed;
   z-index: 1;
 }
 
@@ -107,7 +98,7 @@ nav ul {
 nav ul li {
   display: inline-block;
   list-style: none;
-  margin: 0px 20px;
+  margin: 0px 27px;
   opacity: 1;
   color: #333333;
   letter-spacing: 0.18px;
@@ -121,6 +112,132 @@ nav ul li {
 
 .community {
   background-color: white;
-  height: 100vh;
+  height: 120vh;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.meet_our_community {
+  display: inline-block;
+  /* flex-direction: column; */
+  position: relative;
+  top: 10%;
+  left: 35%;
+}
+
+.meet_our_community h1{
+  color: #333333;
+  letter-spacing: 0px;
+  opacity: 1;
+  font-size: 40px;
+}
+
+.meet_our_community p{
+  background-color: #FFDAC9;
+  display: inline;
+  padding: 5px;
+  color: #333333;
+  font: normal normal bold 18px/52px DIN Condensed;
+  letter-spacing: 0.18px;
+  opacity: 1;
+  margin-bottom: 10px;
+}
+
+.meet_our_community h4{
+  margin-top: 20px;
+}
+
+.location img {
+  height: 90vh;
+  width: 100%;
+  object-fit: contain;
+}
+
+.community__one {
+  display: flex;
+  position: relative;
+  top: 6%;
+  right: 10%;
+}
+
+.community__two {
+  display: flex;
+  position: relative;
+  top: 8%;
+  right: 47%;
+}
+
+.community__three {
+  display: flex;
+  position: relative;
+  top: 10%;
+  right: 10%;
+}
+
+.meet__one {
+  background-color: #ffffff;
+  box-shadow: 0px 15px 50px #0000000f;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  /* top: 25%; */
+  left: 65%;
+  bottom: 80px;
+  margin-right: 20px;
+}
+
+.image__meet__one {
+  height: 266px;
+  width: 265px;
+  padding: 17px;
+}
+
+.image__meet_two {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+}
+
+.meet__two {
+  background-color: #ffffff;
+  box-shadow: 0px 15px 50px #0000000f;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  /* top: 25%; */
+  left: 65%;
+  bottom: 80px;
+  margin-right: 15px;
+}
+
+.meet__two p {
+  font: normal normal normal 15px/20px Gill Sans;
+  color: #333333;
+  opacity: 1;
+  padding: 47px;
+}
+
+.meet__two h5 {
+  letter-spacing: 0.44px;
+  color: #333333;
+  opacity: 1;
+  font: normal normal bold 22px/52px DIN Condensed;
+  position: relative;
+  top: 10%;
+  left: 12%;
+}
+
+.like__content {
+  position: relative;
+  left: 50%;
+  bottom: 5%;
+  display: inline-block;
+}
+
+.like__content img {
+  height: 15px;
+  width: 15px;
+  margin-left: 10px;
 }
