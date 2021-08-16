@@ -1,17 +1,27 @@
 let controller = new ScrollMagic.Controller()
 let timeline = new TimelineMax()
-let scene = new ScrollMagic.Scene()
+let our_menu_timeline = new TimelineMax()
 
 timeline
-    .to(".community__one", 2, {y: -200})
-    .to(".community__two", 2, {y: -200}, "-=2")
-    .to(".community__three", 2, {y: -200}, "-=2")
+    .to(".community__one", {y: -500})
+    .to(".community__two", {y: -500})
+    .to(".community__three", {y: -500})
 
+our_menu_timeline
+            .to(".starters", 1,{y: -500})
+            .to(".main__course", {y: 500}, '-=1')
+            .to(".sides", {y: -500}, '-=1')
+            .to(".desert", {y: 500}, '-=1')
 
 let scene = new ScrollMagic.Scene({
     triggerElement: ".community",
-    duration: "100%",
-    triggerHook: 0
 })
     .setTween(timeline)
     .addTo(controller);
+
+let new_scene = new ScrollMagic.Scene({
+    triggerElement: ".our__menu"
+})
+    .setTween(our_menu_timeline)
+    addIndicators()
+    .addTo(controller)

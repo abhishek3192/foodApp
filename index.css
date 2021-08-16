@@ -3,10 +3,39 @@
   padding: 0;
 }
 
+body {
+  max-width: 100%;
+  /* overflow-x: hidden; */
+}
+
 .container {
   height: 100vh;
   width: 100%;
   background-image: url(./assests/Rectangle\ 1059@1X.png);
+  background-position: center;
+  background-size: cover;
+  /* padding-left: 5%; */
+  /* padding-right: 5%; */
+  box-sizing: border-box;
+  position: relative;
+}
+
+.collabrate .container{
+  height: 60vh;
+  width: 100%;
+  background-image: url(./assests/Rectangle\ 1059@1X.png);
+  background-position: center;
+  background-size: cover;
+  /* padding-left: 5%; */
+  /* padding-right: 5%; */
+  box-sizing: border-box;
+  position: relative;
+}
+
+footer .container {
+  height: 50vh;
+  width: 100%;
+  background: #333333 0% 0% no-repeat padding-box;
   background-position: center;
   background-size: cover;
   /* padding-left: 5%; */
@@ -126,15 +155,15 @@ nav ul li {
   left: 35%;
 }
 
-.meet_our_community h1{
+.meet_our_community h1 {
   color: #333333;
   letter-spacing: 0px;
   opacity: 1;
   font-size: 40px;
 }
 
-.meet_our_community p{
-  background-color: #FFDAC9;
+.meet_our_community p {
+  background-color: #ffdac9;
   display: inline;
   padding: 5px;
   color: #333333;
@@ -144,34 +173,34 @@ nav ul li {
   margin-bottom: 10px;
 }
 
-.meet_our_community h4{
+.meet_our_community h4 {
   margin-top: 20px;
 }
 
 .location img {
-  height: 90vh;
+  /* height: 90vh; */
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .community__one {
   display: flex;
   position: relative;
-  top: 6%;
+  top: 50%;
   right: 10%;
 }
 
 .community__two {
   display: flex;
   position: relative;
-  top: 8%;
+  top: 50%;
   right: 47%;
 }
 
 .community__three {
   display: flex;
   position: relative;
-  top: 10%;
+  top: 50%;
   right: 10%;
 }
 
@@ -240,4 +269,275 @@ nav ul li {
   height: 15px;
   width: 15px;
   margin-left: 10px;
+}
+
+/* our Menu */
+
+.our__menu {
+  background-color: #f8f8f8;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.our__menu__heading h1 {
+  position: relative;
+  left: 49%;
+  color: #333333;
+  letter-spacing: 0px;
+  opacity: 1;
+  font-size: 40px;
+  display: inline;
+  top: 80%;
+  z-index: 1;
+  font-weight: 900;
+}
+
+.our__menu__heading p {
+  background-color: #ffdac9;
+  display: inline;
+  padding: 5px;
+  color: #333333;
+  font: normal normal bold 18px/52px DIN Condensed;
+  letter-spacing: 0.18px;
+  opacity: 1;
+  position: relative;
+  top: 142%;
+  left: 40%;
+  z-index: 1;
+}
+
+.our__menu__one {
+  border-right: 1px solid #767676;
+  position: absolute;
+  height: 100vh;
+  left: 20%;
+}
+
+.our__menu__two {
+  border-right: 1px solid #767676;
+  position: absolute;
+  height: 100vh;
+  left: 42%;
+}
+
+.our__menu__three {
+  border-right: 1px solid #767676;
+  position: absolute;
+  height: 100vh;
+  left: 62.5%;
+}
+
+.our__menu__four {
+  position: absolute;
+  height: 100vh;
+  right: 19%;
+}
+
+.starters {
+  position: relative;
+  top: 20%;
+}
+
+.starters h1 {
+  position: relative;
+  right: 27%;
+  margin-bottom: 20px;
+  color: #333333;
+  font: normal normal bold 55px/52px DIN Condensed;
+}
+
+.starters h6 {
+  color: #333333;
+  font: normal normal bold 14px/42px DIN Condensed;
+  letter-spacing: 0.14px;
+  opacity: 1;
+  position: relative;
+  right: 16%;
+  margin-top: 60px;
+}
+
+.starters p {
+  font: normal normal normal 15px/20px Gill Sans;
+  letter-spacing: 0.15px;
+  color: #767676;
+  opacity: 1;
+  position: relative;
+  right: 16%;
+}
+
+.price {
+  border: 2px solid #ffdac9;
+  opacity: 1;
+  display: inline-block;
+  padding: 5px;
+  position: relative;
+  right: 17%;
+  margin-top: 20px;
+}
+
+.main__course {
+  position: relative;
+  top: 34%;
+  right: 27%;
+}
+
+.main__course h1 {
+  position: relative;
+  right: 27%;
+  margin-bottom: 20px;
+  color: #333333;
+  font: normal normal bold 55px/52px DIN Condensed;
+}
+
+.main__course h6 {
+  color: #333333;
+  font: normal normal bold 14px/42px DIN Condensed;
+  letter-spacing: 0.14px;
+  opacity: 1;
+  position: relative;
+  right: 16%;
+  margin-top: 60px;
+}
+
+.main__course p {
+  font: normal normal normal 15px/20px Gill Sans;
+  letter-spacing: 0.15px;
+  color: #767676;
+  opacity: 1;
+  position: relative;
+  right: 16%;
+}
+
+.sides {
+  position: relative;
+  top: 28%;
+  right: 62%;
+}
+
+.sides h1 {
+  position: relative;
+  right: 27%;
+  margin-bottom: 20px;
+  color: #333333;
+  font: normal normal bold 55px/52px DIN Condensed;
+}
+
+.sides p {
+  font: normal normal normal 15px/20px Gill Sans;
+  letter-spacing: 0.15px;
+  color: #767676;
+  opacity: 1;
+  position: relative;
+  right: 16%;
+}
+
+.sides h6 {
+  color: #333333;
+  font: normal normal bold 14px/42px DIN Condensed;
+  letter-spacing: 0.14px;
+  opacity: 1;
+  position: relative;
+  right: 16%;
+  margin-top: 60px;
+}
+
+.desert {
+  position: relative;
+  top: 23%;
+  left: 46%;
+}
+
+.desert h1 {
+  position: relative;
+  right: 27%;
+  margin-bottom: 20px;
+  color: #333333;
+  font: normal normal bold 55px/52px DIN Condensed;
+}
+
+.desert p {
+  font: normal normal normal 15px/20px Gill Sans;
+  letter-spacing: 0.15px;
+  color: #767676;
+  opacity: 1;
+  position: relative;
+  right: 16%;
+}
+
+.desert h6 {
+  color: #333333;
+  font: normal normal bold 14px/42px DIN Condensed;
+  letter-spacing: 0.14px;
+  opacity: 1;
+  position: relative;
+  right: 16%;
+  margin-top: 60px;
+}
+
+/* footer css */
+
+.footer__main {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 20%;
+  left: 9%;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+.section1 h5 {
+  font: normal normal bold 14px/42px DIN Condensed;
+  letter-spacing: 0.14px;
+  color: #ffdac9;
+  opacity: 1;
+}
+
+.section1 p {
+  font: normal normal normal 13px/20px Gill Sans;
+  letter-spacing: 0.13px;
+  color: #767676;
+  opacity: 1;
+  padding: 10px;
+}
+
+footer .container h1 {
+  float: right;
+  position: relative;
+  bottom: 20%;
+  right: 12%;
+  font: normal normal bold 35px/52px DIN Condensed;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+footer .container span {
+  font: normal normal bold 62px/52px DIN Condensed;
+  letter-spacing: 0px;
+  color: #ffffff;
+  position: relative;
+  left: 16%;
+}
+
+.footer_lines {
+  position: relative;
+  display: flex;
+  top: 35%;
+  justify-content: space-around;
+  left: 5%;
+}
+
+.footer_lines a {
+  padding: 17px;
+  color: white;
+  font-size: 25px;
+}
+
+.footer_lines p {
+  font: normal normal normal 13px/20px Gill Sans;
+  letter-spacing: 0.13px;
+  color: #767676;
+  opacity: 1;
 }
