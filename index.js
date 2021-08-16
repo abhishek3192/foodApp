@@ -3,9 +3,9 @@ let timeline = new TimelineMax()
 let our_menu_timeline = new TimelineMax()
 
 timeline
-    .to(".community__one", {y: -500})
-    .to(".community__two", {y: -500})
-    .to(".community__three", {y: -500})
+    .to(".community__one", 1, {y: -500})
+    .to(".community__two", {y: -500}, "-=1")
+    .to(".community__three", {y: -500}, "-=1")
 
 our_menu_timeline
             .to(".starters", 1,{y: -500})
@@ -23,5 +23,4 @@ let new_scene = new ScrollMagic.Scene({
     triggerElement: ".our__menu"
 })
     .setTween(our_menu_timeline)
-    addIndicators()
     .addTo(controller)

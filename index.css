@@ -20,7 +20,7 @@ body {
   position: relative;
 }
 
-.collabrate .container{
+.collabrate .container {
   height: 60vh;
   width: 100%;
   background-image: url(./assests/Rectangle\ 1059@1X.png);
@@ -337,7 +337,7 @@ nav ul li {
 
 .starters {
   position: relative;
-  top: 20%;
+  top: 70%;
 }
 
 .starters h1 {
@@ -379,7 +379,7 @@ nav ul li {
 
 .main__course {
   position: relative;
-  top: 34%;
+  bottom: 21%;
   right: 27%;
 }
 
@@ -412,7 +412,7 @@ nav ul li {
 
 .sides {
   position: relative;
-  top: 28%;
+  top: 75%;
   right: 62%;
 }
 
@@ -445,7 +445,7 @@ nav ul li {
 
 .desert {
   position: relative;
-  top: 23%;
+  bottom: 21%;
   left: 46%;
 }
 
@@ -540,4 +540,74 @@ footer .container span {
   letter-spacing: 0.13px;
   color: #767676;
   opacity: 1;
+}
+
+.collab__left {
+  width: 50%;
+  position: relative;
+  top: 20%;
+  left: 15%;
+}
+
+.collab__left h1 {
+  font: normal normal bold 35px/52px DIN Condensed;
+  letter-spacing: 0px;
+  color: #333333;
+  display: inline-block;
+  margin-bottom: 41px;
+}
+
+.collab__left span {
+  font: normal normal bold 62px/52px DIN Condensed;
+  letter-spacing: 0px;
+  color: #333333;
+}
+
+.collab__left p {
+  font: normal normal normal 15px/20px Gill Sans;
+  letter-spacing: 0.15px;
+  color: #767676;
+  opacity: 1;
+}
+
+/* form css */
+
+.conatiner-form {
+  float: right;
+  position: relative;
+  bottom: 33%;
+  right: 17%;
+  display: flex;
+  flex-direction: row;
+}
+
+.input__boxes {
+  display: flex;
+  flex-direction: column;
+}
+
+.input__boxes span {
+  margin: 20px;
+}
+
+.input__boxes input {
+  margin: 20px;
+  border: none;
+  background-color: #ffdac9;
+  border-bottom: 1px solid #333333;
+  outline: none;
+}
+
+.part-one {
+  margin-right: 60px;
+}
+
+.submit {
+  background: #333333 0% 0% no-repeat padding-box;
+  opacity: 1;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 3px;
+  position: relative;
+  left: 77%;
 }
